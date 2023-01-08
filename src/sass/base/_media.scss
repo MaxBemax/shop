@@ -1,0 +1,25 @@
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
+   .promo__wrapper {
+      align-items: center;
+   }
+
+}
+@media (max-width: 575px) {
+   .header__logo {
+      width: 220px;
+   }
+   .promo__header {
+      font-size: 38px;
+      line-height: 38px;
+   }
+   .promo__subheader {
+      font-size: 21px;
+   }
+
+}
