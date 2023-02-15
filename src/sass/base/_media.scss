@@ -6,6 +6,38 @@
       font-size: 32px;
       line-height: 52px;
    }
+   
+   .carousel__inner {
+      
+      .slick-dots {
+         margin-top: 10px;
+         padding-left: 0;
+         position: absolute;
+         width: 100%;
+         left: 50%;
+         transform: translateX(-50%);
+         list-style-type: none;
+         text-align: center;
+
+            li{
+               display: inline-block;
+               padding: 0 5px;
+               &.slick-active {
+                  button{
+                     background-color: red;
+                  }  
+               }
+               button {
+                  background-color: orange;
+                  color: transparent;
+                  height: 30px;
+                  width: 30px;
+                  border-radius: 20px;
+                  border: none;
+               }
+            }
+         }
+   }
 }
 @media (max-width: 767px) {
    .header__logo {
