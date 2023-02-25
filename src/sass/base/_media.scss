@@ -38,6 +38,11 @@
             }
          }
    }
+      .catalog__content_active {
+         display: flex;
+         justify-content: space-around;
+         flex-wrap: wrap;
+      }
 }
 @media (max-width: 767px) {
    .header__logo {
@@ -73,6 +78,18 @@
    .title_left {
       font-size: 25px;
       line-height: 45px;
+   }
+   .catalog__tub {
+      width: 150px;
+      height: 50px;
+      font-size: 14px;
+      margin: 0 5px;
+   }
+   .carousel__inner {
+      .slick-slide img {
+         width: 50%;
+         margin: 0 auto;
+      }
    }
 
 }
@@ -115,6 +132,9 @@
       flex-direction: column;
       margin: 0 auto;
       margin-top: 25px;
+   }
+   .catalog__tub {
+      font-size: 12px;
    }
 }
   
